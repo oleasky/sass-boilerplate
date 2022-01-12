@@ -1,0 +1,74 @@
+// ================
+// Buttons
+// ================
+
+@use "../config";
+
+// ================
+// Button Placeholders
+
+// Base Button Styles
+%button {
+  display: block;
+  width: 100%;
+  padding: 0.75em 1.25em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+  appearance: none;
+  -webkit-appearance: none;
+
+  &:hover,
+  &:focus {
+  }
+
+  @media (min-width: config.$mq-600) {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+// Major Buttons
+%major-button {
+}
+
+// Minor Buttons
+%minor-button {
+}
+
+// ================
+// Application of Placeholders
+
+// Default Button Selectors
+button,
+.type_event_button a,
+[type="submit"],
+[type="button"] {
+  @extend %button;
+}
+
+// Reusable Button Classes
+// Add these classes to any element to style it like a button
+button,
+a,
+input {
+  &.button,
+  .button & {
+    @extend %button !optional;
+  }
+
+  &.major-button,
+  .major-button & {
+    @extend %major-button !optional;
+  }
+
+  &.minor-button,
+  .minor-button & {
+    @extend %minor-button !optional;
+  }
+}

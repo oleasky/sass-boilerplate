@@ -1,0 +1,23 @@
+//* ================
+//* Footer Content
+
+@use "../config";
+
+@include config.stickyFooter(".page-main");
+
+.page-footer {
+  a {
+    &:hover,
+    &:focus {
+    }
+  }
+
+  address {
+  }
+
+  .school-name-address {
+  }
+
+  .help-links {
+  }
+}

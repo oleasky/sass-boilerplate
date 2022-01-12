@@ -1,0 +1,10 @@
+//* ================
+//* Page Head
+//* ================
+
+@use "../config";
+
+.page-header {
+  @include config.fluidRem(height, 10rem, 15rem);
+  background: red;
+}

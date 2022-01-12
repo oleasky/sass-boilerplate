@@ -1,0 +1,83 @@
+// ================
+// Typography
+// ================
+
+@use "../config";
+
+$letter-spacing: 1rem;
+$line-height: 1.5;
+
+// ================
+// Root
+
+html {
+  line-height: $line-height;
+}
+
+// ================
+// Headlines
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1rem 0;
+  line-height: $line-height * 0.8;
+}
+
+h1,
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+// ================
+// Body Copy
+
+p,
+ul,
+ol,
+blockquote,
+address {
+  margin: 0 0 1rem 0;
+  font-style: normal;
+}
+
+ul,
+ol {
+  li {
+  }
+}
+
+a {
+  &:hover,
+  &:focus {
+  }
+}
+
+%small,
+small,
+.copyright {
+  font-size: 0.875em;
+  font-style: italic;
+}
+
+// ================
+// Other Type Styles
+
+.error,
+.val-header {
+  color: config.$c-error;
+}

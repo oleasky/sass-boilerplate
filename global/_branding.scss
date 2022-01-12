@@ -1,0 +1,28 @@
+// Logos and branding styles
+// =========================
+@use "sass:color";
+// =========================
+
+%logo,
+.logo {
+}
+
+%logo-alternate,
+.logo.alternate {
+}
+
+%logo-graphic,
+.logo.graphic {
+}
+
+%logo-reverse,
+.logo.reverse {
+}
+
+%logo-reverse-alternate,
+.logo.reverse.alternate {
+}
+
+%logo-reverse-graphic,
+.logo.reverse.graphic {
+}

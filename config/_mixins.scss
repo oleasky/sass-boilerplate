@@ -1,0 +1,18 @@
+//* ================
+//* Custom Mixins
+//* ================
+
+@use "breakpoints";
+
+// NOTE: Put custom mixins here
+@mixin center($_maxWidth: breakpoints.$mq-900, $_width: 90%) {
+  width: $_width;
+  max-width: $_maxWidth;
+  margin: auto;
+}
+
+// Alignments
+%center,
+.center {
+  @include center();
+}
