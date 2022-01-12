@@ -9,15 +9,22 @@ Due to the introduction of Sass Modules in **2019**, there are several rules and
 
 Use terminal to install the latest version of sass into your system. [https://sass-lang.com/install](https://sass-lang.com/install)
 
-I used -  ```
+I used:
+```
 brew install sass/sass/sass
 ```
 
-Note: I had to remove a previous version of sass from my system after installing it due to conflicting files - rm '/usr/local/bin/sass'
-
+Note: I had to remove a previous version of sass from my system after installing it due to conflicting files
+```
+rm '/usr/local/bin/sass'
+```
 
 ## Compilation options:
 
-Terminal: sass -w --style=compressed [scss file name]:[css file name]
+### Terminal: 
+```
+sass -w --style=compressed [scss file name]:[css file name]
+```
 
-VSCode extension: [https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
+### VSCode extension: 
+[https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
