@@ -9,10 +9,9 @@ Due to the introduction of Sass Modules in **2019**, there are several rules and
 
 Use terminal to install the latest version of sass into your system. [https://sass-lang.com/install](https://sass-lang.com/install)
 
-I used -  
-'''
+I used -  ```
 brew install sass/sass/sass
-'''
+```
 
 Note: I had to remove a previous version of sass from my system after installing it due to conflicting files - rm '/usr/local/bin/sass'
 
