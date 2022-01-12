@@ -32,5 +32,7 @@ sass -w --style=compressed [scss file name]:[css file name]
 ## Resources
 
 [https://css-tricks.com/introducing-sass-modules/](https://css-tricks.com/introducing-sass-modules/)
+
 [https://sass-lang.com/documentation](https://sass-lang.com/documentation)
+
 [https://sass-lang.com/documentation/cli/dart-sass](https://sass-lang.com/documentation/cli/dart-sass)
