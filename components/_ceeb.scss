@@ -2,16 +2,11 @@
 // CEEB Lookups
 // ================
 
-
-
 // ================
 // CEEB Format Selection
-$x-ceebFormat: 'autosuggest'; // 'modal' or 'autosuggest'
+$x-ceebFormat: "autosuggest"; // 'modal' or 'autosuggest'
 
-@if $x-ceebFormat == 'autosuggest' {
-
-
-
+@if $x-ceebFormat == "autosuggest" {
   // ================
   // Auto-Suggest Format
 
@@ -20,19 +15,19 @@ $x-ceebFormat: 'autosuggest'; // 'modal' or 'autosuggest'
     .result {
       position: relative;
       margin: 1rem 0;
-      padding: .5rem;
+      padding: 0.5rem;
       border: 1px solid #000;
 
       .location {
         display: block;
-        font-size: .875em;
+        font-size: 0.875em;
         font-style: italic;
       }
 
       a {
         position: absolute;
-        top: .5rem;
-        right: .5rem;
+        top: 0.5rem;
+        right: 0.5rem;
         color: transparent;
         border: 0;
         background: none;
@@ -44,11 +39,11 @@ $x-ceebFormat: 'autosuggest'; // 'modal' or 'autosuggest'
           font-size: 1rem;
           line-height: 1;
         }
-        
+
         &:hover,
         &:focus {
           &::after {
-          // NOTE: Put hover/focus styles here
+            // NOTE: Put hover/focus styles here
           }
         }
       }
@@ -69,7 +64,7 @@ $x-ceebFormat: 'autosuggest'; // 'modal' or 'autosuggest'
     li {
       display: block;
       margin: 0;
-      padding: .75em;
+      padding: 0.75em;
       cursor: pointer;
 
       &:nth-child(even) {
@@ -87,25 +82,19 @@ $x-ceebFormat: 'autosuggest'; // 'modal' or 'autosuggest'
 
       .location {
         display: block;
-        font-size: .85em;
+        font-size: 0.85em;
         font-style: italic;
       }
 
       // Can't Find Link
       &.cantfind {
-
         // Hover State
         &.ac_over {
         }
       }
     }
   }
-}
-
-@elseif $x-ceebFormat == 'modal' {
-
-
-
+} @else if $x-ceebFormat == "modal" {
   // ================
   // Modal Format
 
@@ -126,7 +115,7 @@ $x-ceebFormat: 'autosuggest'; // 'modal' or 'autosuggest'
     li {
       position: relative;
       margin: 0;
-      padding: .5em 5.5em .5em .5em;
+      padding: 0.5em 5.5em 0.5em 0.5em;
       background: #fff;
 
       &:nth-child(even) {
@@ -135,7 +124,7 @@ $x-ceebFormat: 'autosuggest'; // 'modal' or 'autosuggest'
 
       .ceeb-button-result {
         display: block;
-        margin: .5em 0 0 0;
+        margin: 0.5em 0 0 0;
 
         @media only screen and (min-width: $mq-400) {
           position: absolute;
@@ -146,15 +135,15 @@ $x-ceebFormat: 'autosuggest'; // 'modal' or 'autosuggest'
       }
 
       &.ceeb-no-results {
-        padding: 2em .5em .5em .5em;
+        padding: 2em 0.5em 0.5em 0.5em;
         text-align: center;
         background: none;
 
         .button-well {
-          margin-top: .5em;
+          margin-top: 0.5em;
 
           .button ~ .button {
-            margin: 0 0 0 .75em;
+            margin: 0 0 0 0.75em;
           }
 
           @media only screen and (min-width: $mq-600) {
@@ -162,7 +151,7 @@ $x-ceebFormat: 'autosuggest'; // 'modal' or 'autosuggest'
             margin-top: 0;
 
             .button {
-              margin: 0 0 0 .75em;
+              margin: 0 0 0 0.75em;
             }
           }
         }
@@ -173,11 +162,11 @@ $x-ceebFormat: 'autosuggest'; // 'modal' or 'autosuggest'
   // CEEB Result
   .ceeb-answer-group {
     display: block;
-    padding: .5rem;
+    padding: 0.5rem;
     border: 1px solid #000;
 
     .button-well {
-      margin: .5rem 0;
+      margin: 0.5rem 0;
     }
   }
 
@@ -188,7 +177,7 @@ $x-ceebFormat: 'autosuggest'; // 'modal' or 'autosuggest'
 
   [class^="ceeb"][class$="city"],
   [class^="ceeb"][class$="state"] {
-    font-size: .875em;
+    font-size: 0.875em;
     font-style: italic;
     line-height: 1;
   }

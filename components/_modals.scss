@@ -6,9 +6,7 @@
 
 // ================
 // Modal Format Selection
-$x-modalFormat: 'fancybox'; // 'fancybox' or 'rope'
-
-
+$x-modalFormat: "fancybox"; // 'fancybox' or 'rope'
 
 // ================
 // Base Modal Styles
@@ -19,7 +17,7 @@ $x-modalFormat: 'fancybox'; // 'fancybox' or 'rope'
   left: 0 !important;
   width: 100% !important;
   height: 100% !important;
-  background: rgba(#000, .8) !important;
+  background: rgba(#000, 0.8) !important;
 }
 
 %modal-wrap {
@@ -39,8 +37,8 @@ $x-modalFormat: 'fancybox'; // 'fancybox' or 'rope'
 
 %modal-close {
   position: absolute;
-  top: .75rem;
-  right: .75rem;
+  top: 0.75rem;
+  right: 0.75rem;
   width: auto;
   height: auto;
   margin: 0;
@@ -65,10 +63,7 @@ $x-modalFormat: 'fancybox'; // 'fancybox' or 'rope'
   }
 }
 
-@if $x-modalFormat == 'fancybox' {
-
-
-
+@if $x-modalFormat == "fancybox" {
   // ================
   // Fancybox Modals
 
@@ -92,15 +87,7 @@ $x-modalFormat: 'fancybox'; // 'fancybox' or 'rope'
   .fancybox-close {
     @extend %modal-close;
   }
-
-
-
-}
-
-@elseif $x-modalFormat == 'rope' {
-
-
-
+} @else if $x-modalFormat == "rope" {
   // ================
   // ROPE Modals
 
@@ -114,16 +101,16 @@ $x-modalFormat: 'fancybox'; // 'fancybox' or 'rope'
     @extend %modal-overlay;
 
     &.overlay-scale {
-      transform: scale(.9);
+      transform: scale(0.9);
       visibility: hidden;
       overflow: auto;
-      transition: transform .2s, opacity .2s, visibility 0s .2s;
+      transition: transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
       opacity: 0;
 
       &.open {
         transform: scale(1);
         visibility: visible;
-        transition: transform .4s, opacity .4s;
+        transition: transform 0.4s, opacity 0.4s;
         opacity: 1;
       }
     }
@@ -138,7 +125,4 @@ $x-modalFormat: 'fancybox'; // 'fancybox' or 'rope'
       @extend %modal-close;
     }
   }
-
-
-
 }
