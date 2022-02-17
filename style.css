@@ -1,1 +1,781 @@
-*,*::before,*::after{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%}button,input,select,textarea{margin:0}html{box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";-webkit-text-size-adjust:100%}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe,fieldset{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}.hidden,[hidden]{display:none !important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.nobreak{white-space:nowrap}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}button,input{overflow:visible}button,select{text-transform:none}button,[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}.center{width:90%;max-width:56.25rem;margin:auto}html{line-height:1.5}h1,h2,h3,h4,h5,h6{margin:0 0 1rem 0;line-height:1.2}p,ul,ol,blockquote,address{margin:0 0 1rem 0;font-style:normal}.question .help,small,.copyright{font-size:.875em;font-style:italic}.error,.val-header{color:red}button.button,.button button,a.button,.button a,input.button,.button input,button,.type_event_button a,[type=submit],[type=button]{display:block;width:100%;padding:.75em 1.25em;cursor:pointer;text-align:center;text-decoration:none;border:0;border-radius:0;outline:0;font-size:1rem;line-height:1.2;appearance:none;-webkit-appearance:none}@media(min-width: 37.5rem){button.button,.button button,a.button,.button a,input.button,.button input,button,.type_event_button a,[type=submit],[type=button]{display:inline-block;width:auto}}select,textarea,input[type=email],input[type=number],input[type=password],input[type=tel],input[type=text],input[type=url],.StripeElement{width:100%;padding:.5em;border:1px solid;background:#fff}.type_telephone select,.type_telephone textarea,.type_telephone input[type=email],.type_telephone input[type=number],.type_telephone input[type=password],.type_telephone input[type=tel],.type_telephone input[type=text],.type_telephone input[type=url],.type_telephone .StripeElement,.type_ssn select,.type_ssn textarea,.type_ssn input[type=email],.type_ssn input[type=number],.type_ssn input[type=password],.type_ssn input[type=tel],.type_ssn input[type=text],.type_ssn input[type=url],.type_ssn .StripeElement,.type_date select,.type_date textarea,.type_date input[type=email],.type_date input[type=number],.type_date input[type=password],.type_date input[type=tel],.type_date input[type=text],.type_date input[type=url],.type_date .StripeElement{width:auto}.type_telephone select[size="2"],.type_telephone textarea[size="2"],.type_telephone input[size="2"][type=email],.type_telephone input[size="2"][type=number],.type_telephone input[size="2"][type=password],.type_telephone input[size="2"][type=tel],.type_telephone input[size="2"][type=text],.type_telephone input[size="2"][type=url],.type_telephone [size="2"].StripeElement,.type_ssn select[size="2"],.type_ssn textarea[size="2"],.type_ssn input[size="2"][type=email],.type_ssn input[size="2"][type=number],.type_ssn input[size="2"][type=password],.type_ssn input[size="2"][type=tel],.type_ssn input[size="2"][type=text],.type_ssn input[size="2"][type=url],.type_ssn [size="2"].StripeElement,.type_date select[size="2"],.type_date textarea[size="2"],.type_date input[size="2"][type=email],.type_date input[size="2"][type=number],.type_date input[size="2"][type=password],.type_date input[size="2"][type=tel],.type_date input[size="2"][type=text],.type_date input[size="2"][type=url],.type_date [size="2"].StripeElement{min-width:3.25em}.type_telephone select[size="3"],.type_telephone textarea[size="3"],.type_telephone input[size="3"][type=email],.type_telephone input[size="3"][type=number],.type_telephone input[size="3"][type=password],.type_telephone input[size="3"][type=tel],.type_telephone input[size="3"][type=text],.type_telephone input[size="3"][type=url],.type_telephone [size="3"].StripeElement,.type_ssn select[size="3"],.type_ssn textarea[size="3"],.type_ssn input[size="3"][type=email],.type_ssn input[size="3"][type=number],.type_ssn input[size="3"][type=password],.type_ssn input[size="3"][type=tel],.type_ssn input[size="3"][type=text],.type_ssn input[size="3"][type=url],.type_ssn [size="3"].StripeElement,.type_date select[size="3"],.type_date textarea[size="3"],.type_date input[size="3"][type=email],.type_date input[size="3"][type=number],.type_date input[size="3"][type=password],.type_date input[size="3"][type=tel],.type_date input[size="3"][type=text],.type_date input[size="3"][type=url],.type_date [size="3"].StripeElement{min-width:4.25em}.type_telephone select[size="4"],.type_telephone textarea[size="4"],.type_telephone input[size="4"][type=email],.type_telephone input[size="4"][type=number],.type_telephone input[size="4"][type=password],.type_telephone input[size="4"][type=tel],.type_telephone input[size="4"][type=text],.type_telephone input[size="4"][type=url],.type_telephone [size="4"].StripeElement,.type_ssn select[size="4"],.type_ssn textarea[size="4"],.type_ssn input[size="4"][type=email],.type_ssn input[size="4"][type=number],.type_ssn input[size="4"][type=password],.type_ssn input[size="4"][type=tel],.type_ssn input[size="4"][type=text],.type_ssn input[size="4"][type=url],.type_ssn [size="4"].StripeElement,.type_date select[size="4"],.type_date textarea[size="4"],.type_date input[size="4"][type=email],.type_date input[size="4"][type=number],.type_date input[size="4"][type=password],.type_date input[size="4"][type=tel],.type_date input[size="4"][type=text],.type_date input[size="4"][type=url],.type_date [size="4"].StripeElement{min-width:5.25em}.error select,.error textarea,.error input[type=email],.error input[type=number],.error input[type=password],.error input[type=tel],.error input[type=text],.error input[type=url],.error .StripeElement,.val-flag select,.val-flag textarea,.val-flag input[type=email],.val-flag input[type=number],.val-flag input[type=password],.val-flag input[type=tel],.val-flag input[type=text],.val-flag input[type=url],.val-flag .StripeElement{border-color:red}select:focus,textarea:focus,input[type=email]:focus,input[type=number]:focus,input[type=password]:focus,input[type=tel]:focus,input[type=text]:focus,input[type=url]:focus,.StripeElement:focus{outline:none}input[type=email],input[type=number],input[type=password],input[type=tel],input[type=text],input[type=url],.StripeElement{line-height:1.2}textarea{overflow:auto !important;min-height:8em;resize:vertical !important;line-height:1.4}select{overflow:hidden;line-height:1.2}input[type=radio],input[type=checkbox]{float:left;width:1em;height:1em;margin:.5em 0 0 0}input[type=radio]~label,input[type=radio]~.rte-q-label,input[type=checkbox]~label,input[type=checkbox]~.rte-q-label{display:block;padding:.3125em 0 .3125em 1.25rem;cursor:pointer;font-size:.9444em}.question{margin:1rem 0}.question>label,.question>.rte-q-label,.question>.desc{display:block;padding:0 0 .125em 0;line-height:1.4}.error .question>label,.val-flag .question>label,.error .question>.rte-q-label,.val-flag .question>.rte-q-label,.error .question>.desc,.val-flag .question>.desc{color:red}@media screen{.question .forprint{display:none !important}}@media(min-width: 56.25rem){.wide-form .type_date:not(.question-stacked),.wide-form .type_multicheck:not(.question-stacked),.wide-form .type_radio:not(.question-stacked),.wide-form .type_select:not(.question-stacked),.wide-form .type_ssn:not(.question-stacked),.wide-form .type_telephone:not(.question-stacked),.wide-form .type_text:not(.question-stacked),.wide-form .type_textarea:not(.question-stacked){display:flex;flex-wrap:wrap;align-items:flex-start}.wide-form .type_date:not(.question-stacked)>label,.wide-form .type_date:not(.question-stacked)>.rte-q-label,.wide-form .type_date:not(.question-stacked)>.desc,.wide-form .type_multicheck:not(.question-stacked)>label,.wide-form .type_multicheck:not(.question-stacked)>.rte-q-label,.wide-form .type_multicheck:not(.question-stacked)>.desc,.wide-form .type_radio:not(.question-stacked)>label,.wide-form .type_radio:not(.question-stacked)>.rte-q-label,.wide-form .type_radio:not(.question-stacked)>.desc,.wide-form .type_select:not(.question-stacked)>label,.wide-form .type_select:not(.question-stacked)>.rte-q-label,.wide-form .type_select:not(.question-stacked)>.desc,.wide-form .type_ssn:not(.question-stacked)>label,.wide-form .type_ssn:not(.question-stacked)>.rte-q-label,.wide-form .type_ssn:not(.question-stacked)>.desc,.wide-form .type_telephone:not(.question-stacked)>label,.wide-form .type_telephone:not(.question-stacked)>.rte-q-label,.wide-form .type_telephone:not(.question-stacked)>.desc,.wide-form .type_text:not(.question-stacked)>label,.wide-form .type_text:not(.question-stacked)>.rte-q-label,.wide-form .type_text:not(.question-stacked)>.desc,.wide-form .type_textarea:not(.question-stacked)>label,.wide-form .type_textarea:not(.question-stacked)>.rte-q-label,.wide-form .type_textarea:not(.question-stacked)>.desc{width:33.333%;padding:.5em 5% .5em 0}.wide-form .type_date:not(.question-stacked)>label~*,.wide-form .type_date:not(.question-stacked)>.rte-q-label~*,.wide-form .type_date:not(.question-stacked)>.desc~*,.wide-form .type_multicheck:not(.question-stacked)>label~*,.wide-form .type_multicheck:not(.question-stacked)>.rte-q-label~*,.wide-form .type_multicheck:not(.question-stacked)>.desc~*,.wide-form .type_radio:not(.question-stacked)>label~*,.wide-form .type_radio:not(.question-stacked)>.rte-q-label~*,.wide-form .type_radio:not(.question-stacked)>.desc~*,.wide-form .type_select:not(.question-stacked)>label~*,.wide-form .type_select:not(.question-stacked)>.rte-q-label~*,.wide-form .type_select:not(.question-stacked)>.desc~*,.wide-form .type_ssn:not(.question-stacked)>label~*,.wide-form .type_ssn:not(.question-stacked)>.rte-q-label~*,.wide-form .type_ssn:not(.question-stacked)>.desc~*,.wide-form .type_telephone:not(.question-stacked)>label~*,.wide-form .type_telephone:not(.question-stacked)>.rte-q-label~*,.wide-form .type_telephone:not(.question-stacked)>.desc~*,.wide-form .type_text:not(.question-stacked)>label~*,.wide-form .type_text:not(.question-stacked)>.rte-q-label~*,.wide-form .type_text:not(.question-stacked)>.desc~*,.wide-form .type_textarea:not(.question-stacked)>label~*,.wide-form .type_textarea:not(.question-stacked)>.rte-q-label~*,.wide-form .type_textarea:not(.question-stacked)>.desc~*{width:calc(100% - 33.333%)}.wide-form .type_date:not(.question-stacked)>label~*.choice,.wide-form .type_date:not(.question-stacked)>.rte-q-label~*.choice,.wide-form .type_date:not(.question-stacked)>.desc~*.choice,.wide-form .type_multicheck:not(.question-stacked)>label~*.choice,.wide-form .type_multicheck:not(.question-stacked)>.rte-q-label~*.choice,.wide-form .type_multicheck:not(.question-stacked)>.desc~*.choice,.wide-form .type_radio:not(.question-stacked)>label~*.choice,.wide-form .type_radio:not(.question-stacked)>.rte-q-label~*.choice,.wide-form .type_radio:not(.question-stacked)>.desc~*.choice,.wide-form .type_select:not(.question-stacked)>label~*.choice,.wide-form .type_select:not(.question-stacked)>.rte-q-label~*.choice,.wide-form .type_select:not(.question-stacked)>.desc~*.choice,.wide-form .type_ssn:not(.question-stacked)>label~*.choice,.wide-form .type_ssn:not(.question-stacked)>.rte-q-label~*.choice,.wide-form .type_ssn:not(.question-stacked)>.desc~*.choice,.wide-form .type_telephone:not(.question-stacked)>label~*.choice,.wide-form .type_telephone:not(.question-stacked)>.rte-q-label~*.choice,.wide-form .type_telephone:not(.question-stacked)>.desc~*.choice,.wide-form .type_text:not(.question-stacked)>label~*.choice,.wide-form .type_text:not(.question-stacked)>.rte-q-label~*.choice,.wide-form .type_text:not(.question-stacked)>.desc~*.choice,.wide-form .type_textarea:not(.question-stacked)>label~*.choice,.wide-form .type_textarea:not(.question-stacked)>.rte-q-label~*.choice,.wide-form .type_textarea:not(.question-stacked)>.desc~*.choice{margin:0.375em 0}.wide-form .type_date:not(.question-stacked)>label~.help,.wide-form .type_date:not(.question-stacked)>.rte-q-label~.help,.wide-form .type_date:not(.question-stacked)>.desc~.help,.wide-form .type_multicheck:not(.question-stacked)>label~.help,.wide-form .type_multicheck:not(.question-stacked)>.rte-q-label~.help,.wide-form .type_multicheck:not(.question-stacked)>.desc~.help,.wide-form .type_radio:not(.question-stacked)>label~.help,.wide-form .type_radio:not(.question-stacked)>.rte-q-label~.help,.wide-form .type_radio:not(.question-stacked)>.desc~.help,.wide-form .type_select:not(.question-stacked)>label~.help,.wide-form .type_select:not(.question-stacked)>.rte-q-label~.help,.wide-form .type_select:not(.question-stacked)>.desc~.help,.wide-form .type_ssn:not(.question-stacked)>label~.help,.wide-form .type_ssn:not(.question-stacked)>.rte-q-label~.help,.wide-form .type_ssn:not(.question-stacked)>.desc~.help,.wide-form .type_telephone:not(.question-stacked)>label~.help,.wide-form .type_telephone:not(.question-stacked)>.rte-q-label~.help,.wide-form .type_telephone:not(.question-stacked)>.desc~.help,.wide-form .type_text:not(.question-stacked)>label~.help,.wide-form .type_text:not(.question-stacked)>.rte-q-label~.help,.wide-form .type_text:not(.question-stacked)>.desc~.help,.wide-form .type_textarea:not(.question-stacked)>label~.help,.wide-form .type_textarea:not(.question-stacked)>.rte-q-label~.help,.wide-form .type_textarea:not(.question-stacked)>.desc~.help{width:100%}.wide-form .type_date.related-question,.wide-form .type_multicheck.related-question,.wide-form .type_radio.related-question,.wide-form .type_select.related-question,.wide-form .type_ssn.related-question,.wide-form .type_telephone.related-question,.wide-form .type_text.related-question,.wide-form .type_textarea.related-question{padding-left:33.333%}.wide-form .type_date .type_checkbox.related-question,.wide-form .type_date .type_readonly_webcopy.related-question,.wide-form .type_multicheck .type_checkbox.related-question,.wide-form .type_multicheck .type_readonly_webcopy.related-question,.wide-form .type_radio .type_checkbox.related-question,.wide-form .type_radio .type_readonly_webcopy.related-question,.wide-form .type_select .type_checkbox.related-question,.wide-form .type_select .type_readonly_webcopy.related-question,.wide-form .type_ssn .type_checkbox.related-question,.wide-form .type_ssn .type_readonly_webcopy.related-question,.wide-form .type_telephone .type_checkbox.related-question,.wide-form .type_telephone .type_readonly_webcopy.related-question,.wide-form .type_text .type_checkbox.related-question,.wide-form .type_text .type_readonly_webcopy.related-question,.wide-form .type_textarea .type_checkbox.related-question,.wide-form .type_textarea .type_readonly_webcopy.related-question{padding-left:33.333%}.wide-form .question{margin:0;padding:1rem 0;border-top:1px solid #ddd}.wide-form .related-question{padding-top:0;border-top:none}.wide-form .rte-q:first-of-type .question{padding-top:0;border-top:0}}.type_multicheck .choice span,.type_radio .choice span,.type_ethnicity .choice span{display:inline-block;margin-right:1em;vertical-align:baseline}.type_multicheck .choice input[type=radio]>label,.type_multicheck .choice input[type=radio]>.rte-q-label,.type_multicheck .choice input[type=checkbox]>label,.type_multicheck .choice input[type=checkbox]>.rte-q-label,.type_radio .choice input[type=radio]>label,.type_radio .choice input[type=radio]>.rte-q-label,.type_radio .choice input[type=checkbox]>label,.type_radio .choice input[type=checkbox]>.rte-q-label,.type_ethnicity .choice input[type=radio]>label,.type_ethnicity .choice input[type=radio]>.rte-q-label,.type_ethnicity .choice input[type=checkbox]>label,.type_ethnicity .choice input[type=checkbox]>.rte-q-label{width:auto}.type_multicheck.answer-stacked .choice span,.type_radio.answer-stacked .choice span,.type_ethnicity.answer-stacked .choice span{display:block}.type_date [role=group],.type_ssn [role=group],.type_telephone [role=group]{display:flex}.type_date [role=group]>*:not(:first-child),.type_ssn [role=group]>*:not(:first-child),.type_telephone [role=group]>*:not(:first-child){margin-left:.25em}.group_mode_view .type_date [role=group]>*:not(:first-child),.group_mode_view .type_ssn [role=group]>*:not(:first-child),.group_mode_view .type_telephone [role=group]>*:not(:first-child){margin-left:0}.type_date [role=group]>* select,.type_ssn [role=group]>* select,.type_telephone [role=group]>* select{width:100%}.rte-custom-highschoollookup7 .result{position:relative;margin:1rem 0;padding:.5rem;border:1px solid #000}.rte-custom-highschoollookup7 .result .location{display:block;font-size:.875em;font-style:italic}.rte-custom-highschoollookup7 .result a{position:absolute;top:.5rem;right:.5rem;color:transparent;border:0;background:none;font-size:0}.rte-custom-highschoollookup7 .result a::after{content:"X";color:#000;font-size:1rem;line-height:1}.ac_results{z-index:1000;background:#fff;position:relative}.ac_results ul{margin:0;padding:0}.ac_results li{display:block;margin:0;padding:.75em;cursor:pointer}.ac_results li:nth-child(even){background:#eee}.ac_results li .location{display:block;font-size:.85em;font-style:italic}.fancybox-overlay{position:fixed !important;top:0 !important;left:0 !important;width:100% !important;height:100% !important;background:rgba(0,0,0,.8) !important}.fancybox-wrap{position:absolute !important;right:0 !important;left:0 !important;width:90% !important;max-width:37.5rem !important;margin:0 auto !important}.fancybox-skin{padding:1.5rem !important;border-radius:0 !important;background:#fff !important}.fancybox-close{position:absolute;top:.75rem;right:.75rem;width:auto;height:auto;margin:0;padding:0;color:transparent;border:0;background:none;font-size:0}.fancybox-close::after{content:"X";color:#000;font-size:2rem;line-height:1}.fancybox-inner{width:100% !important;height:auto !important}.page-header{height:10rem;background:red}@media(min-width: 18.75rem){.page-header{height:calc( 10rem + 5 * ((100vw - 18.75rem) / 56.25) )}}@media(min-width: 75rem){.page-header{height:15rem}}body{display:flex;flex-direction:column;min-height:100vh}body>*{flex-shrink:0}.page-main{flex-grow:1}/*# sourceMappingURL=style.css.map */
+*,
+*::before,
+*::after {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe,
+fieldset {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+.hidden,
+[hidden] {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.nobreak {
+  white-space: nowrap;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+summary {
+  display: list-item;
+}
+
+.center {
+  width: 90%;
+  max-width: 56.25rem;
+  margin: auto;
+}
+
+html {
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1rem 0;
+  line-height: 1.2;
+}
+
+p,
+ul,
+ol,
+blockquote,
+address {
+  margin: 0 0 1rem 0;
+  font-style: normal;
+}
+
+.question .help,
+small,
+.copyright {
+  font-size: 0.875em;
+  font-style: italic;
+}
+
+.error,
+.val-header {
+  color: red;
+}
+
+button.button, .button button,
+a.button,
+.button a,
+input.button,
+.button input, button,
+.type_event_button a,
+[type=submit],
+[type=button] {
+  display: block;
+  width: 100%;
+  padding: 0.75em 1.25em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+  appearance: none;
+  -webkit-appearance: none;
+}
+@media (min-width: 37.5rem) {
+  button.button, .button button,
+a.button,
+.button a,
+input.button,
+.button input, button,
+.type_event_button a,
+[type=submit],
+[type=button] {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+button,
+.type_event_button a,
+[type=submit],
+[type=button] {
+  background: #000;
+}
+
+select, textarea, input[type=email],
+input[type=number],
+input[type=password],
+input[type=tel],
+input[type=text],
+input[type=url],
+.StripeElement {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid;
+  background: #fff;
+}
+.type_telephone select, .type_telephone textarea, .type_telephone input[type=email],
+.type_telephone input[type=number],
+.type_telephone input[type=password],
+.type_telephone input[type=tel],
+.type_telephone input[type=text],
+.type_telephone input[type=url],
+.type_telephone .StripeElement, .type_ssn select, .type_ssn textarea, .type_ssn input[type=email],
+.type_ssn input[type=number],
+.type_ssn input[type=password],
+.type_ssn input[type=tel],
+.type_ssn input[type=text],
+.type_ssn input[type=url],
+.type_ssn .StripeElement, .type_date select, .type_date textarea, .type_date input[type=email],
+.type_date input[type=number],
+.type_date input[type=password],
+.type_date input[type=tel],
+.type_date input[type=text],
+.type_date input[type=url],
+.type_date .StripeElement {
+  width: auto;
+}
+.type_telephone select[size="2"], .type_telephone textarea[size="2"], .type_telephone input[size="2"][type=email],
+.type_telephone input[size="2"][type=number],
+.type_telephone input[size="2"][type=password],
+.type_telephone input[size="2"][type=tel],
+.type_telephone input[size="2"][type=text],
+.type_telephone input[size="2"][type=url],
+.type_telephone [size="2"].StripeElement, .type_ssn select[size="2"], .type_ssn textarea[size="2"], .type_ssn input[size="2"][type=email],
+.type_ssn input[size="2"][type=number],
+.type_ssn input[size="2"][type=password],
+.type_ssn input[size="2"][type=tel],
+.type_ssn input[size="2"][type=text],
+.type_ssn input[size="2"][type=url],
+.type_ssn [size="2"].StripeElement, .type_date select[size="2"], .type_date textarea[size="2"], .type_date input[size="2"][type=email],
+.type_date input[size="2"][type=number],
+.type_date input[size="2"][type=password],
+.type_date input[size="2"][type=tel],
+.type_date input[size="2"][type=text],
+.type_date input[size="2"][type=url],
+.type_date [size="2"].StripeElement {
+  min-width: 3.25em;
+}
+.type_telephone select[size="3"], .type_telephone textarea[size="3"], .type_telephone input[size="3"][type=email],
+.type_telephone input[size="3"][type=number],
+.type_telephone input[size="3"][type=password],
+.type_telephone input[size="3"][type=tel],
+.type_telephone input[size="3"][type=text],
+.type_telephone input[size="3"][type=url],
+.type_telephone [size="3"].StripeElement, .type_ssn select[size="3"], .type_ssn textarea[size="3"], .type_ssn input[size="3"][type=email],
+.type_ssn input[size="3"][type=number],
+.type_ssn input[size="3"][type=password],
+.type_ssn input[size="3"][type=tel],
+.type_ssn input[size="3"][type=text],
+.type_ssn input[size="3"][type=url],
+.type_ssn [size="3"].StripeElement, .type_date select[size="3"], .type_date textarea[size="3"], .type_date input[size="3"][type=email],
+.type_date input[size="3"][type=number],
+.type_date input[size="3"][type=password],
+.type_date input[size="3"][type=tel],
+.type_date input[size="3"][type=text],
+.type_date input[size="3"][type=url],
+.type_date [size="3"].StripeElement {
+  min-width: 4.25em;
+}
+.type_telephone select[size="4"], .type_telephone textarea[size="4"], .type_telephone input[size="4"][type=email],
+.type_telephone input[size="4"][type=number],
+.type_telephone input[size="4"][type=password],
+.type_telephone input[size="4"][type=tel],
+.type_telephone input[size="4"][type=text],
+.type_telephone input[size="4"][type=url],
+.type_telephone [size="4"].StripeElement, .type_ssn select[size="4"], .type_ssn textarea[size="4"], .type_ssn input[size="4"][type=email],
+.type_ssn input[size="4"][type=number],
+.type_ssn input[size="4"][type=password],
+.type_ssn input[size="4"][type=tel],
+.type_ssn input[size="4"][type=text],
+.type_ssn input[size="4"][type=url],
+.type_ssn [size="4"].StripeElement, .type_date select[size="4"], .type_date textarea[size="4"], .type_date input[size="4"][type=email],
+.type_date input[size="4"][type=number],
+.type_date input[size="4"][type=password],
+.type_date input[size="4"][type=tel],
+.type_date input[size="4"][type=text],
+.type_date input[size="4"][type=url],
+.type_date [size="4"].StripeElement {
+  min-width: 5.25em;
+}
+.error select, .error textarea, .error input[type=email],
+.error input[type=number],
+.error input[type=password],
+.error input[type=tel],
+.error input[type=text],
+.error input[type=url],
+.error .StripeElement, .val-flag select, .val-flag textarea, .val-flag input[type=email],
+.val-flag input[type=number],
+.val-flag input[type=password],
+.val-flag input[type=tel],
+.val-flag input[type=text],
+.val-flag input[type=url],
+.val-flag .StripeElement {
+  border-color: red;
+}
+select:focus, textarea:focus, input[type=email]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=url]:focus,
+.StripeElement:focus {
+  outline: none;
+}
+
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=tel],
+input[type=text],
+input[type=url],
+.StripeElement {
+  line-height: 1.2;
+}
+
+textarea {
+  overflow: auto !important;
+  min-height: 8em;
+  resize: vertical !important;
+  line-height: 1.4;
+}
+
+select {
+  overflow: hidden;
+  line-height: 1.2;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  float: left;
+  width: 1em;
+  height: 1em;
+  margin: 0.5em 0 0 0;
+}
+input[type=radio] ~ label, input[type=radio] ~ .rte-q-label,
+input[type=checkbox] ~ label,
+input[type=checkbox] ~ .rte-q-label {
+  display: block;
+  padding: 0.3125em 0 0.3125em 1.25rem;
+  cursor: pointer;
+  font-size: 0.9444em;
+}
+
+.question {
+  margin: 1rem 0;
+}
+.question > label, .question > .rte-q-label, .question > .desc {
+  display: block;
+  padding: 0 0 0.125em 0;
+  line-height: 1.4;
+}
+.error .question > label, .val-flag .question > label, .error .question > .rte-q-label, .val-flag .question > .rte-q-label, .error .question > .desc, .val-flag .question > .desc {
+  color: red;
+}
+@media screen {
+  .question .forprint {
+    display: none !important;
+  }
+}
+
+@media (min-width: 56.25rem) {
+  .wide-form .type_date:not(.question-stacked),
+.wide-form .type_multicheck:not(.question-stacked),
+.wide-form .type_radio:not(.question-stacked),
+.wide-form .type_select:not(.question-stacked),
+.wide-form .type_ssn:not(.question-stacked),
+.wide-form .type_telephone:not(.question-stacked),
+.wide-form .type_text:not(.question-stacked),
+.wide-form .type_textarea:not(.question-stacked) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .wide-form .type_date:not(.question-stacked) > label,
+.wide-form .type_date:not(.question-stacked) > .rte-q-label,
+.wide-form .type_date:not(.question-stacked) > .desc,
+.wide-form .type_multicheck:not(.question-stacked) > label,
+.wide-form .type_multicheck:not(.question-stacked) > .rte-q-label,
+.wide-form .type_multicheck:not(.question-stacked) > .desc,
+.wide-form .type_radio:not(.question-stacked) > label,
+.wide-form .type_radio:not(.question-stacked) > .rte-q-label,
+.wide-form .type_radio:not(.question-stacked) > .desc,
+.wide-form .type_select:not(.question-stacked) > label,
+.wide-form .type_select:not(.question-stacked) > .rte-q-label,
+.wide-form .type_select:not(.question-stacked) > .desc,
+.wide-form .type_ssn:not(.question-stacked) > label,
+.wide-form .type_ssn:not(.question-stacked) > .rte-q-label,
+.wide-form .type_ssn:not(.question-stacked) > .desc,
+.wide-form .type_telephone:not(.question-stacked) > label,
+.wide-form .type_telephone:not(.question-stacked) > .rte-q-label,
+.wide-form .type_telephone:not(.question-stacked) > .desc,
+.wide-form .type_text:not(.question-stacked) > label,
+.wide-form .type_text:not(.question-stacked) > .rte-q-label,
+.wide-form .type_text:not(.question-stacked) > .desc,
+.wide-form .type_textarea:not(.question-stacked) > label,
+.wide-form .type_textarea:not(.question-stacked) > .rte-q-label,
+.wide-form .type_textarea:not(.question-stacked) > .desc {
+    width: 33.333%;
+    padding: 0.5em 5% 0.5em 0;
+  }
+  .wide-form .type_date:not(.question-stacked) > label ~ *,
+.wide-form .type_date:not(.question-stacked) > .rte-q-label ~ *,
+.wide-form .type_date:not(.question-stacked) > .desc ~ *,
+.wide-form .type_multicheck:not(.question-stacked) > label ~ *,
+.wide-form .type_multicheck:not(.question-stacked) > .rte-q-label ~ *,
+.wide-form .type_multicheck:not(.question-stacked) > .desc ~ *,
+.wide-form .type_radio:not(.question-stacked) > label ~ *,
+.wide-form .type_radio:not(.question-stacked) > .rte-q-label ~ *,
+.wide-form .type_radio:not(.question-stacked) > .desc ~ *,
+.wide-form .type_select:not(.question-stacked) > label ~ *,
+.wide-form .type_select:not(.question-stacked) > .rte-q-label ~ *,
+.wide-form .type_select:not(.question-stacked) > .desc ~ *,
+.wide-form .type_ssn:not(.question-stacked) > label ~ *,
+.wide-form .type_ssn:not(.question-stacked) > .rte-q-label ~ *,
+.wide-form .type_ssn:not(.question-stacked) > .desc ~ *,
+.wide-form .type_telephone:not(.question-stacked) > label ~ *,
+.wide-form .type_telephone:not(.question-stacked) > .rte-q-label ~ *,
+.wide-form .type_telephone:not(.question-stacked) > .desc ~ *,
+.wide-form .type_text:not(.question-stacked) > label ~ *,
+.wide-form .type_text:not(.question-stacked) > .rte-q-label ~ *,
+.wide-form .type_text:not(.question-stacked) > .desc ~ *,
+.wide-form .type_textarea:not(.question-stacked) > label ~ *,
+.wide-form .type_textarea:not(.question-stacked) > .rte-q-label ~ *,
+.wide-form .type_textarea:not(.question-stacked) > .desc ~ * {
+    width: calc(100% - 33.333%);
+  }
+  .wide-form .type_date:not(.question-stacked) > label ~ *.choice,
+.wide-form .type_date:not(.question-stacked) > .rte-q-label ~ *.choice,
+.wide-form .type_date:not(.question-stacked) > .desc ~ *.choice,
+.wide-form .type_multicheck:not(.question-stacked) > label ~ *.choice,
+.wide-form .type_multicheck:not(.question-stacked) > .rte-q-label ~ *.choice,
+.wide-form .type_multicheck:not(.question-stacked) > .desc ~ *.choice,
+.wide-form .type_radio:not(.question-stacked) > label ~ *.choice,
+.wide-form .type_radio:not(.question-stacked) > .rte-q-label ~ *.choice,
+.wide-form .type_radio:not(.question-stacked) > .desc ~ *.choice,
+.wide-form .type_select:not(.question-stacked) > label ~ *.choice,
+.wide-form .type_select:not(.question-stacked) > .rte-q-label ~ *.choice,
+.wide-form .type_select:not(.question-stacked) > .desc ~ *.choice,
+.wide-form .type_ssn:not(.question-stacked) > label ~ *.choice,
+.wide-form .type_ssn:not(.question-stacked) > .rte-q-label ~ *.choice,
+.wide-form .type_ssn:not(.question-stacked) > .desc ~ *.choice,
+.wide-form .type_telephone:not(.question-stacked) > label ~ *.choice,
+.wide-form .type_telephone:not(.question-stacked) > .rte-q-label ~ *.choice,
+.wide-form .type_telephone:not(.question-stacked) > .desc ~ *.choice,
+.wide-form .type_text:not(.question-stacked) > label ~ *.choice,
+.wide-form .type_text:not(.question-stacked) > .rte-q-label ~ *.choice,
+.wide-form .type_text:not(.question-stacked) > .desc ~ *.choice,
+.wide-form .type_textarea:not(.question-stacked) > label ~ *.choice,
+.wide-form .type_textarea:not(.question-stacked) > .rte-q-label ~ *.choice,
+.wide-form .type_textarea:not(.question-stacked) > .desc ~ *.choice {
+    margin: 0.375em 0;
+  }
+  .wide-form .type_date:not(.question-stacked) > label ~ .help,
+.wide-form .type_date:not(.question-stacked) > .rte-q-label ~ .help,
+.wide-form .type_date:not(.question-stacked) > .desc ~ .help,
+.wide-form .type_multicheck:not(.question-stacked) > label ~ .help,
+.wide-form .type_multicheck:not(.question-stacked) > .rte-q-label ~ .help,
+.wide-form .type_multicheck:not(.question-stacked) > .desc ~ .help,
+.wide-form .type_radio:not(.question-stacked) > label ~ .help,
+.wide-form .type_radio:not(.question-stacked) > .rte-q-label ~ .help,
+.wide-form .type_radio:not(.question-stacked) > .desc ~ .help,
+.wide-form .type_select:not(.question-stacked) > label ~ .help,
+.wide-form .type_select:not(.question-stacked) > .rte-q-label ~ .help,
+.wide-form .type_select:not(.question-stacked) > .desc ~ .help,
+.wide-form .type_ssn:not(.question-stacked) > label ~ .help,
+.wide-form .type_ssn:not(.question-stacked) > .rte-q-label ~ .help,
+.wide-form .type_ssn:not(.question-stacked) > .desc ~ .help,
+.wide-form .type_telephone:not(.question-stacked) > label ~ .help,
+.wide-form .type_telephone:not(.question-stacked) > .rte-q-label ~ .help,
+.wide-form .type_telephone:not(.question-stacked) > .desc ~ .help,
+.wide-form .type_text:not(.question-stacked) > label ~ .help,
+.wide-form .type_text:not(.question-stacked) > .rte-q-label ~ .help,
+.wide-form .type_text:not(.question-stacked) > .desc ~ .help,
+.wide-form .type_textarea:not(.question-stacked) > label ~ .help,
+.wide-form .type_textarea:not(.question-stacked) > .rte-q-label ~ .help,
+.wide-form .type_textarea:not(.question-stacked) > .desc ~ .help {
+    width: 100%;
+  }
+  .wide-form .type_date.related-question,
+.wide-form .type_multicheck.related-question,
+.wide-form .type_radio.related-question,
+.wide-form .type_select.related-question,
+.wide-form .type_ssn.related-question,
+.wide-form .type_telephone.related-question,
+.wide-form .type_text.related-question,
+.wide-form .type_textarea.related-question {
+    padding-left: 33.333%;
+  }
+  .wide-form .type_date .type_checkbox.related-question,
+.wide-form .type_date .type_readonly_webcopy.related-question,
+.wide-form .type_multicheck .type_checkbox.related-question,
+.wide-form .type_multicheck .type_readonly_webcopy.related-question,
+.wide-form .type_radio .type_checkbox.related-question,
+.wide-form .type_radio .type_readonly_webcopy.related-question,
+.wide-form .type_select .type_checkbox.related-question,
+.wide-form .type_select .type_readonly_webcopy.related-question,
+.wide-form .type_ssn .type_checkbox.related-question,
+.wide-form .type_ssn .type_readonly_webcopy.related-question,
+.wide-form .type_telephone .type_checkbox.related-question,
+.wide-form .type_telephone .type_readonly_webcopy.related-question,
+.wide-form .type_text .type_checkbox.related-question,
+.wide-form .type_text .type_readonly_webcopy.related-question,
+.wide-form .type_textarea .type_checkbox.related-question,
+.wide-form .type_textarea .type_readonly_webcopy.related-question {
+    padding-left: 33.333%;
+  }
+  .wide-form .question {
+    margin: 0;
+    padding: 1rem 0;
+    border-top: 1px solid #ddd;
+  }
+  .wide-form .related-question {
+    padding-top: 0;
+    border-top: none;
+  }
+  .wide-form .rte-q:first-of-type .question {
+    padding-top: 0;
+    border-top: 0;
+  }
+}
+
+.type_multicheck .choice span,
+.type_radio .choice span,
+.type_ethnicity .choice span {
+  display: inline-block;
+  margin-right: 1em;
+  vertical-align: baseline;
+}
+.type_multicheck .choice input[type=radio] > label, .type_multicheck .choice input[type=radio] > .rte-q-label, .type_multicheck .choice input[type=checkbox] > label, .type_multicheck .choice input[type=checkbox] > .rte-q-label,
+.type_radio .choice input[type=radio] > label,
+.type_radio .choice input[type=radio] > .rte-q-label,
+.type_radio .choice input[type=checkbox] > label,
+.type_radio .choice input[type=checkbox] > .rte-q-label,
+.type_ethnicity .choice input[type=radio] > label,
+.type_ethnicity .choice input[type=radio] > .rte-q-label,
+.type_ethnicity .choice input[type=checkbox] > label,
+.type_ethnicity .choice input[type=checkbox] > .rte-q-label {
+  width: auto;
+}
+.type_multicheck.answer-stacked .choice span,
+.type_radio.answer-stacked .choice span,
+.type_ethnicity.answer-stacked .choice span {
+  display: block;
+}
+
+.type_date [role=group],
+.type_ssn [role=group],
+.type_telephone [role=group] {
+  display: flex;
+}
+.type_date [role=group] > *:not(:first-child),
+.type_ssn [role=group] > *:not(:first-child),
+.type_telephone [role=group] > *:not(:first-child) {
+  margin-left: 0.25em;
+}
+.group_mode_view .type_date [role=group] > *:not(:first-child),
+.group_mode_view .type_ssn [role=group] > *:not(:first-child),
+.group_mode_view .type_telephone [role=group] > *:not(:first-child) {
+  margin-left: 0;
+}
+.type_date [role=group] > * select,
+.type_ssn [role=group] > * select,
+.type_telephone [role=group] > * select {
+  width: 100%;
+}
+
+.rte-custom-highschoollookup7 .result {
+  position: relative;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 1px solid #000;
+}
+.rte-custom-highschoollookup7 .result .location {
+  display: block;
+  font-size: 0.875em;
+  font-style: italic;
+}
+.rte-custom-highschoollookup7 .result a {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: transparent;
+  border: 0;
+  background: none;
+  font-size: 0;
+}
+.rte-custom-highschoollookup7 .result a::after {
+  content: "X";
+  color: #000;
+  font-size: 1rem;
+  line-height: 1;
+}
+.ac_results {
+  z-index: 1000;
+  background: #fff;
+  position: relative;
+}
+.ac_results ul {
+  margin: 0;
+  padding: 0;
+}
+.ac_results li {
+  display: block;
+  margin: 0;
+  padding: 0.75em;
+  cursor: pointer;
+}
+.ac_results li:nth-child(even) {
+  background: #eee;
+}
+.ac_results li .location {
+  display: block;
+  font-size: 0.85em;
+  font-style: italic;
+}
+.fancybox-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.fancybox-wrap {
+  position: absolute !important;
+  right: 0 !important;
+  left: 0 !important;
+  width: 90% !important;
+  max-width: 37.5rem !important;
+  margin: 0 auto !important;
+}
+
+.fancybox-skin {
+  padding: 1.5rem !important;
+  border-radius: 0 !important;
+  background: #fff !important;
+}
+
+.fancybox-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  color: transparent;
+  border: 0;
+  background: none;
+  font-size: 0;
+}
+.fancybox-close::after {
+  content: "X";
+  color: #000;
+  font-size: 2rem;
+  line-height: 1;
+}
+.fancybox-inner {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.page-header {
+  height: 10rem;
+  background: red;
+}
+@media (min-width: 18.75rem) {
+  .page-header {
+    height: calc( 10rem + 5 * ((100vw - 18.75rem) / 56.25) );
+  }
+}
+@media (min-width: 75rem) {
+  .page-header {
+    height: 15rem;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body > * {
+  flex-shrink: 0;
+}
+
+.page-main {
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
