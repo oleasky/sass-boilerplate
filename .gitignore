@@ -2,8 +2,3 @@
 */.DS_Store
 node_modules/
 
-# Build files for testing
-style.css
-style.css.map
-
-package.json

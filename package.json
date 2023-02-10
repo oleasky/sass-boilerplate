@@ -1,0 +1,15 @@
+{
+  "name": "Mes-Sass",
+  "version": "1.0.0",
+  "description": "Sass boilerplate",
+  "main": "index.js",
+  "repository": "https://github.com/andreieab/sass-boilerplate.git",
+  "author": "Andrei Olea <aolea@eab.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sass --watch style.scss:style.css --style compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.58.0"
+  }
+}
