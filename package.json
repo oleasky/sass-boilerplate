@@ -1,6 +1,6 @@
 {
-  "name": "Mes-Sass",
-  "version": "1.0.0",
+  "name": "Sass Boilerplate",
+  "version": "0.0.1",
   "description": "Sass boilerplate",
   "main": "index.js",
   "repository": "https://github.com/andreieab/sass-boilerplate.git",
@@ -8,8 +8,5 @@
   "license": "MIT",
   "scripts": {
     "dev": "sass --watch style.scss:style.css --style compressed"
-  },
-  "devDependencies": {
-    "sass": "^1.58.0"
   }
 }
